@@ -13,11 +13,12 @@ public class ArrayList {
 	private static final int DEFAULT_CAPATICY = 10;
 	
 	public ArrayList(int capaticy) {
+		capaticy = (capaticy < DEFAULT_CAPATICY) ? DEFAULT_CAPATICY : capaticy;
 		elements = new int[capaticy];
 	}
 
 	public ArrayList() {
-		elements = new int[DEFAULT_CAPATICY];
+		this(DEFAULT_CAPATICY);
 	}
 	
 	
