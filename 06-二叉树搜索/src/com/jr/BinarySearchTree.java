@@ -1,5 +1,7 @@
 package com.jr;
 
+import com.jr.print.BinaryTreeInfo;
+
 public class BinarySearchTree<E extends Comparable> implements BinaryTreeInfo {
 
 	/// 元素个数

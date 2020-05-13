@@ -1,4 +1,4 @@
-package com.jr;
+package com.jr.print;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package com.jr;
+package com.jr.print;
 
 public interface BinaryTreeInfo {
 	/**

@@ -1,4 +1,4 @@
-package com.jr;
+package com.jr.print;
 
 public class Strings {
 	public static String repeat(String string, int count) {
